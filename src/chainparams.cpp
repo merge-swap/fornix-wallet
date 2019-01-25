@@ -133,6 +133,13 @@ public:
         assert(hashGenesisBlock == uint256("0x000008968a12126c31fe23129f16500295de19a9d066f7e92fa1bf0d68977291"));
         assert(genesis.hashMerkleRoot == uint256("0x36075ec728fe09335e6d1025eac7a187161375e2ef47e50e4cae86995a1efcc1"));
 
+        //Add some usefull Seeeds
+        vSeeds.push_back(CDNSSeedData("Merge Seed 1", "128.199.218.14"));
+        vSeeds.push_back(CDNSSeedData("Merge Seed 2", "139.59.190.12"));
+        vSeeds.push_back(CDNSSeedData("Merge Seed 3", "140.82.3.42"));
+        vSeeds.push_back(CDNSSeedData("Merge Seed 4", "194.182.84.161"));
+
+        //Origninal Nodes
         vSeeds.push_back(CDNSSeedData("fornix seed 1", "185.243.112.70"));
         vSeeds.push_back(CDNSSeedData("fornix seed 2", "23.228.232.76"));
         vSeeds.push_back(CDNSSeedData("fornix seed 3", "185.243.112.254"));
